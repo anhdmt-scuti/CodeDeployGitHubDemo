@@ -1,8 +1,8 @@
 #!/bin/bash
-if [ "$DEPLOYMENT_GROUP_NAME" == "DEV" ]
+if [ "$DEPLOYMENT_GROUP_NAME" == "dev" ]
 then
 	echo "dev" > /tmp/env
-elif [ "$DEPLOYMENT_GROUP_NAME" == "STG" ]
+elif [ "$DEPLOYMENT_GROUP_NAME" == "stg" ]
 then
 	echo "stg" > /tmp/env
 fi
